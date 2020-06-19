@@ -76,7 +76,7 @@ const basketballList = [
     "price": "$243"
   }
 ]
-// 跑步
+// 戶外
 const outdoorList = [
   {
     "link": "https://www.o2gether.com.tw/product/detail/755",
@@ -115,7 +115,7 @@ const outdoorList = [
     "price": "$6,634"
   }
 ]
-// 跑步
+// 健身
 const fitnessList = [
   {
     "link": "https://www.o2gether.com.tw/product/detail/851",
