@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Title" CONTENT="O2Gether Gym Surfing 夏練衝一波！">
+    <meta name="keywords" content="Garmin Sports, Gym Surfing, 線上同步直播">
+    <meta name="description" content="Garmin Sports Gym Surfing夏練燃脂賽，全台精選駐站運動家陪你線下線上一起衝！" />
+    <meta name="author" content="O2Gether運動平台" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O2Gether運動平台 | Gym Surfing 夏練衝一波！</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanstc.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        $(function(){
+	        $('.btn-top').click(function(){
+		        $('html, body').animate({
+                    scrollTop: 0
+                }, 300);
+		        return false;
+	        });
+
+            $('.menu-m').click(function(){
+                $('.menu-block-mb').stop().fadeToggle(300)
+                $(this).toggleClass("active");
+            })
+
+            if(screen.width <= 1024){
+                $('.menu li a').click(function(){
+                    $('.menu-block-mb').fadeOut()
+                    $(".menu-m").removeClass("active");
+                })
+            }
+            if($(window).width <= 1024){
+                $('.menu li a').click(function(){
+                    $('.menu-block-mb').fadeOut()
+                    $(".menu-m").removeClass("active");
+                })
+            }
+
+
+
+            $('.menu-1').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section1').offset().top}, 300);
+            });
+            $('.menu-2').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section2').offset().top}, 300);
+            });  
+            $('.menu-3').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section3').offset().top}, 300);
+            });  
+            $('.menu-4').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section4').offset().top}, 300);
+            });  
+            $('.menu-5').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section5').offset().top}, 300);
+            });  
+
+            $(window).scroll(function(){
+                var window_scrollTop = $(window).scrollTop();
+                // last=$("body").height()-$(window).height()-150
+                console.log(window_scrollTop, 'scroll')
+                if(window_scrollTop > 200){
+                    $(".btn-top").stop().fadeIn(300);
+                }else{
+                    $(".btn-top").stop().fadeOut(100);
+                }
+            })
+
+        });
+
+        
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="https://www.o2gether.com.tw/" target="_blank">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <a href="##" class="menu-m">
+                <!-- <img src="img/menu-m.png" alt=""> -->
+                <div class="hamBar">
+                    <div class="bar bar1 transition"></div>
+                    <div class="bar bar2 transition"></div>
+                    <div class="bar bar3 transition"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="">
+        <img src="img/banner.jpg" alt="" class="img-rwd banner-pc">
+        <img src="img/banner-m.jpg" alt="" class="img-rwd banner-m">
+    </div>
+
+    <div class="menu-block">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="#section1" class="menu-1"><img src="img/menu1.png" alt=""></a></li>
+                <li><a href="#section2" class="menu-2"><img src="img/menu2.png" alt=""></a></li>
+                <li><a href="#section3" class="menu-3"><img src="img/menu3.png" alt=""></a></li>
+                <li><a href="#section4" class="menu-4"><img src="img/menu4.png" alt=""></a></li>
+                <li><a href="#section5" class="menu-5"><img src="img/menu5.png" alt=""></a></li>
+            </ul>
+            <div class="menu-m-social">
+                <a href="https://bit.ly/3cSExDy"><img src="img/fb.png" alt=""></a>
+                <a href="https://bit.ly/2AMYugF"><img src="img/line.png" alt=""></a>
+                <a href="https://bit.ly/2LMJQZj"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="menu-block-mb">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="#section1" class="menu-1"><img src="img/menu1.png" alt=""></a></li>
+                <li><a href="#section2" class="menu-2"><img src="img/menu2.png" alt=""></a></li>
+                <li><a href="#section3" class="menu-3"><img src="img/menu3.png" alt=""></a></li>
+                <li><a href="#section4" class="menu-4"><img src="img/menu4.png" alt=""></a></li>
+                <li><a href="#section5" class="menu-5"><img src="img/menu5.png" alt=""></a></li>
+            </ul>
+            <div class="menu-m-social">
+                <a href="https://bit.ly/3cSExDy"><img src="img/fb.png" alt=""></a>
+                <a href="https://bit.ly/2AMYugF"><img src="img/line.png" alt=""></a>
+                <a href="https://bit.ly/2LMJQZj"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-banner">
+        <div class="container">
+            <p class="sub-slogn">運動不是只有一種方式，<br>運動員訓練、勁量有氧、舒緩瑜珈、親子主題體適能，<br>挑戰成為更好的自已，六月一起衝！</p>
+        </div>
+        <div class="sectionBlock" id="section1"></div>
+    </div>
+
+    <div class="bg-8a8a8a">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h3>有點酷酷的</h3>
+                    <h2>運動員訓練 </h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/36eiKn2" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img1.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">INSP液態阻力體驗課程</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/4</span>    
+                            <span class="middle">20:00~21:00</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">Inspire Fitness激活體能中心</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">水袋體能</div>
+                            <div class="bg-g">桃園市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/57" class="card-logo" target="_blank"><img src="img/card-logo1.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/3cUrQbp" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img2.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">NTC高強度間歇訓練</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/5</span>    
+                            <span class="middle">19:00~20:00</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">F Infinite</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">NTC</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/66" class="card-logo" target="_blank"><img src="img/card-logo2.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/3e4jqhv" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img3.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">格鬥體能訓練</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/11</span>    
+                            <span class="middle">20:00~21:00</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">MoveFit Training</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">格鬥</div>
+                            <div class="bg-g">高雄市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/48" class="card-logo" target="_blank"><img src="img/card-logo3.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/2ZkAtIf" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img4.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">拳面啟動 - 大家動起來</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/17</span>    
+                            <span class="middle">20:00~21:00</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">極力運動</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">專業基礎拳擊</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/7" class="card-logo" target="_blank"><img src="img/card-logo4.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/36wyBNZ" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img5.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">夏至UAT</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/21</span>    
+                            <span class="middle">14:00~15:00</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">TFL淬煉體能</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">UAT</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/60" class="card-logo" target="_blank"><img src="img/card-logo5.png" alt="" class="img-rwd"></a>
+            </div>
+        </div>
+        <a href="https://bit.ly/2LPTBpx" class="btn-more" target="_blank">
+            <img src="img/btn-more1.png" alt="" class="">
+        </a>
+        <div class="sectionBlock" id="section2"></div>
+    </div>
+
+    <div class="bg-595959">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h3>去你的脂肪</h3>
+                    <h2>勁量有氧</h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/3ggRYix" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img6.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">Super Energy 超能量</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/8</span>    
+                            <span class="middle">20:00~21:00</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">好習慣健身工作室</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">肌力有氧</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/13" class="card-logo" target="_blank"><img src="img/card-logo6.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/2zOCLod" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img7.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">Power Plate高效燃脂</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/10</span>    
+                            <span class="middle">20:00~21:00</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">Boost Fitness</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">高效燃脂</div>
+                            <div class="bg-g">台中市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/61" class="card-logo" target="_blank"><img src="img/card-logo7.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/3g6YZ5s" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img8.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">iENERGY愛塑身</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/12</span>    
+                            <span class="middle">19:30~20:30</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">安蕎體能運動館七賢店</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">iENERGY</div>
+                            <div class="bg-g">高雄市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/11" class="card-logo" target="_blank"><img src="img/card-logo8.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/3g6tGrG" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img9.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">HIIT瑞士球間歇代謝訓練</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/15</span>    
+                            <span class="middle">20:00~21:00</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">嘻波so氣療運動空間</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">HIIT</div>
+                            <div class="bg-g">新北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/31" class="card-logo" target="_blank"><img src="img/card-logo9.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/2AFIn4w" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img10.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">愛塑身 全方位功能性訓練</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/16</span>    
+                            <span class="middle">20:00~21:00</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">森運動空間</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">iENERGY</div>
+                            <div class="bg-g">新竹縣</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/5" class="card-logo" target="_blank"><img src="img/card-logo10.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/3d034Xn" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img11.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">CrossFit UltiLife混合健身</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/22</span>    
+                            <span class="middle">20:30~21:30</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">CrossFit UltiLife</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">CrossFit</div>
+                            <div class="bg-g">台中市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/67" class="card-logo" target="_blank"><img src="img/card-logo11.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/3dWU59g" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img12.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">愛派對</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/24</span>    
+                            <span class="middle">20:35~21:35</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">MED多運動時代</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">iParty</div>
+                            <div class="bg-g">高雄市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/16" class="card-logo" target="_blank"><img src="img/card-logo12.png" alt="" class="img-rwd"></a>
+            </div>
+        </div>
+        <a href="https://bit.ly/36mCXXR" class="btn-more" target="_blank">
+            <img src="img/btn-more1.png" alt="" class="">
+        </a>
+        <div class="sectionBlock" id="section3"></div>
+    </div>
+
+    <div class="bg-8a8a8a">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h3>解你的憂</h3>
+                    <h2>舒緩瑜珈</h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/2zPYtIu" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img13.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">香氛療癒開髖瑜珈</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/3</span>    
+                            <span class="middle">18:30~19:30</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">Chantelle香緹</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">香氛療癒瑜珈</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/44" class="card-logo" target="_blank"><img src="img/card-logo13.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/2ZitPSN" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img14.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">筋膜流動整合瑜珈</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/9</span>    
+                            <span class="middle">20:00~21:00</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">yoga kafe 瑜珈 ‧ 療癒 ‧ 空間</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">筋膜瑜伽</div>
+                            <div class="bg-g">新北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/24" class="card-logo" target="_blank"><img src="img/card-logo17.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/2TnzROc" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img15.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">夏天來臨之輕流動瑜珈</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/18</span>    
+                            <span class="middle">20:30~21:30</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">溫晴Mia</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">和緩瑜珈</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/50" class="card-logo" target="_blank"><img src="img/card-logo15.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/3cMfrGc" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img16.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">超模指定芭蕾雕塑課</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/19</span>    
+                            <span class="middle">20:00~21:00</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">好時光女生運動樂園</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">Barre</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/21" class="card-logo" target="_blank"><img src="img/card-logo16.png" alt="" class="img-rwd"></a>
+            </div>
+        </div>
+        <a href="https://bit.ly/2Xnuu2u" class="btn-more" target="_blank">
+            <img src="img/btn-more1.png" alt="" class="">
+        </a>
+        <div class="sectionBlock" id="section4"></div>
+    </div>
+
+    <div class="bg-595959">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h3>把最好的都給你</h3>
+                    <h2>親子體適能</h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/36gkXhT" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img18.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">LEADERKids 親子運動派對</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/6</span>    
+                            <span class="middle">10:00~11:00</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">Leaderkids</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">親子派對</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/38" class="card-logo" target="_blank"><img src="img/card-logo18.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/2WNVN7c" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img19.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">EMPOWER KIDS 幼兒籃球體適能</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/13</span>    
+                            <span class="middle">13:30~14:30</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">Empower 引爆運動訓練</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">幼兒籃球</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/22" class="card-logo" target="_blank"><img src="img/card-logo19.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://bit.ly/2AaQENx" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img20.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">幼兒跆拳體適能</h4>
+                        <div class="card-content-style">
+                            <img src="img/time.png" alt="" class="middle">
+                            <span class="middle mr18">2020/6/25</span>    
+                            <span class="middle">19:00~20:00</span>
+                        </div>
+                        <div class="card-content-style">
+                            <img src="img/location.png" alt="" class="middle locationImg">
+                            <span class="middle">Big Boss Sports Center大老闆運動中心</span>
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">幼兒跆拳</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/54" class="card-logo" target="_blank"><img src="img/card-logo20.png" alt="" class="img-rwd"></a>
+            </div>
+        </div>
+        <a href="https://bit.ly/2zd8b81" class="btn-more" target="_blank">
+            <img src="img/btn-more1.png" alt="" class="">
+        </a>
+        <div class="sectionBlock" id="section5"></div>
+    </div>
+
+    <div class="directions-wrap">
+        <div class="container relative">
+            <div class="directions-center pcApplogo">
+                <div class="middle myGarmin"><img src="img/garmin.png" alt="" class="img-rwd"></div>
+                <div class="appLogo">
+                    <div class="ver-bottom"><a href="https://apple.co/36l4mK1" target="_blank"><img src="img/ios.png" alt="" class="img-rwd"></a></div>
+                    <div class="ver-bottom"><a href="https://bit.ly/36n3Ta1" target="_blank"><img src="img/android.png" alt="" class="img-rwd"></a></div>   
+                </div>
+
+            </div>
+            <div class="title-img">
+                <div class="title-txt black">
+                    <h2>Garmin Sports Gym Surfing 夏練燃脂賽</h2>
+                </div>
+            </div>
+            
+            <div class="w-50p">
+                <div class="directions-block">
+                    <h5>活動方式</h5>
+                    <ol>
+                        <li>下載Garmin Sports APP，輸入與Garmin Connect 同樣帳號密碼，運動紀錄即可自動串接。</li>
+                        <li>選擇想加入的Gym Surfing 夏練燃脂賽課程，並使用Garmin穿戴裝置於競賽指定時間參與Gym Surfing體驗課程或線上直播，開始一起運動。</li>
+                    </ol>
+                </div>
+                <div class="directions-block">
+                    <h5>抽獎資格</h5>
+                    <ol>
+                        <li>凡於該週週日晚間23:59前完成運動卡路里數上傳，即具當週抽獎資格。</li>
+                    </ol>
+                </div>
+                <div class="directions-block">
+                    <h5>抽獎獎項</h5>
+                    <p>每週抽出</p>
+                    <ol>
+                        <li>O2Gether 線上點數3000點 共3名<a href="https://www.o2gether.com.tw/help/faq/7" target="_blank">(點數使用規則看這裡)</a></li>
+                        <li>Garmin 健身彈力帶 共3名</li>
+                    </ol>
+                </div>
+                <div class="directions-block">
+                    <h5>抽獎日期</h5>
+                    <ol>
+                        <li>本活動將於 6/8, 6/15, 6/22, 6/29 進行抽獎，並公布於O2Gether 與Garmin FB 粉絲專頁。( 獎項將於中獎名單公布後的一周內發放 )</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="directions-center mbFlex">
+                <div class="middle myGarmin"><img src="img/garmin.png" alt="" class="img-rwd"></div>
+                <div class="appLogo">
+                    <div class="ver-bottom"><a href="https://apple.co/36l4mK1" target="_blank"><img src="img/ios.png" alt="" class="img-rwd"></a></div>
+                    <div class="ver-bottom"><a href="https://bit.ly/36n3Ta1" target="_blank"><img src="img/android.png" alt="" class="img-rwd"></a></div>   
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="note">
+        <div class="container relative">
+            <div class="w-1100">
+                <div class="note-title">注意事項：</div>
+                <ol>
+                    <li>若逢颱風或其他不可抗力之因素、天災，由主辦單位以參與者安全考量，決定是否取消，如活動因有任何變更或補充事項，將隨時公佈於本活動官網與FB活動專頁。</li>
+                    <li>本活動期間會進行線上直播錄影，參與本活動之學員，在課堂中的肖像權(包含照片、影片)需同意並授權主辦單位等相關行銷宣傳使用（包含但不限於網路、平面媒體使用），凡參與即為同意此項。</li>
+                    <li>主辦單位保留活動變更、修改或終止之權利。</li>
+                </ol>
+            </div>
+            <a href="##" class="btn-top"><img src="img/btn-top.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div><img src="img/logo.png" alt=""></div>
+            <div class="footer-txt"><img src="img/footer-txt.png" alt=""></div>
+            <div>
+                <a href="https://bit.ly/3cSExDy" target="_blank"><img src="img/fb.png" alt=""></a>
+                <a href="https://bit.ly/2AMYugF" target="_blank"><img src="img/line.png" alt=""></a>
+                <a href="https://bit.ly/2LMJQZj" target="_blank"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

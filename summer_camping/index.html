@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Title" CONTENT="O2Gether運動平台 暑假丟包計畫">
+    <meta name="keywords" content="暑假丟包計畫 小孩放電夏令營">
+    <meta name="description" content="報名再送最高1000元夏日運動折扣包！" />
+    <meta name="author" content="O2Gether運動平台" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O2Gether運動平台 暑假丟包計畫！</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanstc.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        $(function(){
+	        $('.btn-top').click(function(){
+		        $('html, body').animate({
+                    scrollTop: 0
+                }, 300);
+		        return false;
+	        });
+
+            $('.menu-m').click(function(){
+                $('.menu-block-mb').stop().fadeToggle(300)
+                $(this).toggleClass("active");
+            })
+
+            if(screen.width <= 1024){
+                $('.menu li a').click(function(){
+                    $('.menu-block-mb').fadeOut()
+                    $(".menu-m").removeClass("active");
+                })
+            }
+            if($(window).width <= 1024){
+                $('.menu li a').click(function(){
+                    $('.menu-block-mb').fadeOut()
+                    $(".menu-m").removeClass("active");
+                })
+            }
+
+
+
+            $('.menu-1').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section1').offset().top}, 300);
+            });
+            $('.menu-2').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section2').offset().top}, 300);
+            });  
+            $('.menu-3').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section3').offset().top}, 300);
+            });    
+
+            $(window).scroll(function(){
+                var window_scrollTop = $(window).scrollTop();
+                // last=$("body").height()-$(window).height()-150
+                console.log(window_scrollTop, 'scroll')
+                if(window_scrollTop > 200){
+                    $(".btn-top").stop().fadeIn(300);
+                }else{
+                    $(".btn-top").stop().fadeOut(100);
+                }
+            })
+
+        });
+
+        
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="https://www.o2gether.com.tw/" target="_blank">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <a href="##" class="menu-m">
+                <!-- <img src="img/menu-m.png" alt=""> -->
+                <div class="hamBar">
+                    <div class="bar bar1 transition"></div>
+                    <div class="bar bar2 transition"></div>
+                    <div class="bar bar3 transition"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="">
+        <img src="img/banner.jpg" alt="" class="img-rwd banner-pc">
+        <img src="img/banner-m.jpg" alt="" class="img-rwd banner-m">
+    </div>
+
+    <div class="menu-block">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="#section1" class="menu-1"><img src="img/menu1.png" alt=""></a></li>
+                <li><a href="#section2" class="menu-2"><img src="img/menu2.png" alt=""></a></li>
+                <li><a href="#section3" class="menu-3"><img src="img/menu3.png" alt=""></a></li>
+                <li><a href="https://www.o2gether.com.tw/article/detail/10" class="menu-4" target="_blank"><img src="img/menu4.png" alt=""></a></li>
+            </ul>
+            <div class="menu-m-social">
+                <a href="https://bit.ly/3cSExDy"><img src="img/fb.png" alt=""></a>
+                <a href="https://bit.ly/2AMYugF"><img src="img/line.png" alt=""></a>
+                <a href="https://bit.ly/2LMJQZj"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="menu-block-mb">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="#section1" class="menu-1"><img src="img/menu1.png" alt=""></a></li>
+                <li><a href="#section2" class="menu-2"><img src="img/menu2.png" alt=""></a></li>
+                <li><a href="#section3" class="menu-3"><img src="img/menu3.png" alt=""></a></li>
+                <li><a href="https://www.o2gether.com.tw/article/detail/10" class="menu-4" target="_blank"><img src="img/menu4.png" alt=""></a></li>
+            </ul>
+            <div class="menu-m-social">
+                <a href="https://bit.ly/3cSExDy"><img src="img/fb.png" alt=""></a>
+                <a href="https://bit.ly/2AMYugF"><img src="img/line.png" alt=""></a>
+                <a href="https://bit.ly/2LMJQZj"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-banner">
+        <div class="subMask">
+            <div class="container">
+                <p class="sub-slogn">丟掉書包、丟掉電腦包、<br>丟掉至今還沒幫孩子安排暑期活動的包 <br>今年暑假最棒的大人小孩運動活動</p>
+            </div>
+            <div class="sectionBlock" id="section1"></div>
+        </div>
+    </div>
+
+    <div class="bg-8a8a8a pd-1">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <img src="./img/list_icon01.png" alt="">
+                    <h2>小孩放電夏令營 </h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/103" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img1.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">LEADERkids </h4>
+                        <h4 class="card-content-h4">2020 兒童運動旅遊</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 1800up</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/38" class="card-logo" target="_blank"><img src="img/card-logo05.png" alt="" class="img-rwd"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/supplier/detail/132" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img2.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">2020焦耳</h4>
+                        <h4 class="card-content-h4">小鐵人夏令營</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 6000up</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送Speedo 200元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/83" class="card-logo" target="_blank"><img src="img/card-logo14.png" alt="" class="img-rwd"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/92" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img3.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">洛德城堡鐵人探索</h4>
+                        <h4 class="card-content-h4">夏令營</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 6800up</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送Speedo 200元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/38" class="card-logo" target="_blank"><img src="img/card-logo05.png" alt="" class="img-rwd"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/84" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img4.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">躍進MTB越野</h4>
+                        <h4 class="card-content-h4">夏令營</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 15000up</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">宜蘭縣</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/38" class="card-logo" target="_blank"><img src="img/card-logo05.png" alt="" class="img-rwd"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/supplier/detail/40" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img5.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">台東兒童夏令營</h4>
+                        <h4 class="card-content-h4" style="height: 22px;"></h4>
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 3800up</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送Speedo 200元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">台東縣</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/55" class="card-logo" target="_blank"><img src="img/card-logo06.png" alt="" class="img-rwd"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/supplier/detail/24" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img6.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">澎湖兒童夏令營</h4>
+                        <h4 class="card-content-h4" style="height: 22px;"></h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 20000up</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送Speedo 200元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">澎湖縣</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/55" class="card-logo" target="_blank"><img src="img/card-logo06.png" alt="" class="img-rwd"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/supplier/detail/142" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img7.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">嘻波練家子夏令營</h4>
+                        <h4 class="card-content-h4" style="height: 22px;"></h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 7500</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">新北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/31" class="card-logo" target="_blank"><img src="img/card-logo15.png" alt="" class="img-rwd"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/supplier/detail/139" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img8.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">最新免插電</h4>
+                        <h4 class="card-content-h4">走繩體驗</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 300</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">新北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/43" class="card-logo" target="_blank"><img src="img/card-logo16.png" alt="" class="img-rwd"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/supplier/detail/65" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img9.jpg" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">2020攀岩夏令營</h4>
+                        <h4 class="card-content-h4" style="height: 22px;"></h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 1800up</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">新北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/65" class="card-logo" target="_blank"><img src="img/card-logo04.png" alt="" class="img-rwd"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/supplier/detail/76" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img10.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">2020 spalding</h4>
+                        <h4 class="card-content-h4">籃球訓練營</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 3800up</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送摩曼頓Nike500元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">籃球</div>
+                            <div class="bg-g">全台灣</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/76" class="card-logo" target="_blank"><img src="img/card-logo17.png" alt="" class="img-rwd"></a>
+            </div>
+
+
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/supplier/detail/22" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img11.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">2020 夢想飛翔-</h4>
+                        <h4 class="card-content-h4">引爆暑假籃球訓練營</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 5080up</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送摩曼頓Nike500元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">籃球</div>
+                            <div class="bg-g">全台灣</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/22" class="card-logo" target="_blank"><img src="img/card-logo01.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/114" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img12.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">龍門獨木舟夏令營</h4>
+                        <h4 class="card-content-h4" style="height: 22px;"></h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 800</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">水上</div>
+                            <div class="bg-g">新北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/13" class="card-logo" target="_blank"><img src="img/card-logo03.png" alt="" class="img-rwd"></a>
+            </div>
+        </div>
+        <div class="sectionBlock" id="section2"></div>
+    </div>
+
+    <div class="bg-595959 pd-1">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <img src="./img/list_icon02.png" alt="">
+                    <h2>大人夏日玩耍團</h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/117" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img13.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">假日玩耍團-</h4>
+                        <h4 class="card-content-h4">龍門SUP體驗</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 1200</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">水上</div>
+                            <div class="bg-g">新北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/13" class="card-logo" target="_blank"><img src="img/card-logo03.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/56" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img14.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">獨木舟烏岩角</h4>
+                        <h4 class="card-content-h4">海蝕洞秘境沙灘</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 1800</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">水上</div>
+                            <div class="bg-g">宜蘭縣</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/30" class="card-logo" target="_blank"><img src="img/card-logo07.png" alt="" class="img-rwd"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/138" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img15.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">SUP立式划槳-</h4>
+                        <h4 class="card-content-h4">福隆雙溪河</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 1350</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">水上</div>
+                            <div class="bg-g">新北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/30" class="card-logo" target="_blank"><img src="img/card-logo18.png" alt="" class="img-rwd"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/140" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img16.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">戶外攀岩體驗</h4>
+                        <h4 class="card-content-h4" style="height: 22px;"></h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 600</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">新北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/43" class="card-logo" target="_blank"><img src="img/card-logo19.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/118" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img17.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">海神宮溯溪</h4>
+                        <h4 class="card-content-h4" style="height: 22px;"></h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 2000</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">屏東縣</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/49" class="card-logo" target="_blank"><img src="img/card-logo08.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/120" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img18.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">得子口溯溪</h4>
+                        <h4 class="card-content-h4" style="height: 22px;"></h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 1880</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">宜蘭縣</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/45" class="card-logo" target="_blank"><img src="img/card-logo10.png" alt="" class="img-rwd"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/130" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img19.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">捎來溪探訪</h4>
+                        <h4 class="card-content-h4">龍谷大瀑布溯溪</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 2100</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">臺中市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/45" class="card-logo" target="_blank"><img src="img/card-logo11.png" alt="" class="img-rwd"></a>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/127" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img20.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">松鶴溪花式跳潭</h4>
+                        <h4 class="card-content-h4">悠遊溯溪</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 2300</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">臺中市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/20" class="card-logo" target="_blank"><img src="img/card-logo11.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/121" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img21.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">梅花溪溯溪</h4>
+                        <h4 class="card-content-h4" style="height: 22px;"></h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 2380</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">戶外</div>
+                            <div class="bg-g">新竹縣</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/16" class="card-logo" target="_blank"><img src="img/card-logo10.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/112" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img22.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">花式籃球球感</h4>
+                        <h4 class="card-content-h4">養成班</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 3500</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送摩曼頓Nike500元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">籃球</div>
+                            <div class="bg-g">台北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/52" class="card-logo" target="_blank"><img src="img/card-logo02.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/105" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img23.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">跑者專屬沙灘訓練</h4>
+                        <h4 class="card-content-h4" style="height: 22px;"></h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 540up</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送摩曼頓Nike500元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">跑步</div>
+                            <div class="bg-g">宜蘭縣</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/36" class="card-logo" target="_blank"><img src="img/card-logo12.png" alt="" class="img-rwd"></a>
+            </div>
+
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/event/detail/8" target="_blank" class="card-link">
+                    <div class="card-img"><img src="img/card-img24.png" alt="" class="img-rwd"></div>
+                    <div class="card-content">
+                        <h4 class="card-content-h4">決戰萬米加速</h4>
+                        <h4 class="card-content-h4">訓練營</h4>
+                        
+                        <div class="card-content-style">
+                            <img src="img/coin.png" alt="" class="middle">
+                            <span class="middle mr18">NT$ 4680</span>    
+                        </div>
+                        <div class="card-content-style2">
+                            <img src="img/ticket.png" alt="" class="middle">
+                            <span class="middle mr18">再送摩曼頓Nike500元購物金</span>    
+                        </div>
+                        <div class="card-content-bottom">
+                            <div class="bg-o">跑步</div>
+                            <div class="bg-g">臺北市</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.o2gether.com.tw/supplier/detail/17" class="card-logo" target="_blank"><img src="img/card-logo13.png" alt="" class="img-rwd"></a>
+            </div>
+        </div>
+        <div class="sectionBlock" id="section3"></div>
+    </div>
+
+    <div class="bg-8a8a8a pd-1">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <img src="./img/list_icon03.png" alt="">
+                    <h2>夏日裝備驚喜價</h2>
+                </div>
+            </div>
+            <div class="summer-txt">
+                <h2>Basketball 籃球</h2>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/product/detail/948" target="_blank" class="card-link">
+                    <div class="card-img2"><img src="img/card-img25.png" alt="" class="img-rwd"></div>
+                    <div class="black-content">
+                        <h4 class="black-content-h4">NIKE 青少年球衣</h4>
+                        <h4>DRI-FIT吸濕排汗科技
+                        </h4>
+                        <div class="black-content-style" style="text-align: right;">
+                            NT$2380
+                        </div>
+                        <div class="black-content-bottom">
+                            <div class="bg-w">籃球</div>
+                            <h2>NT$2142</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/product/detail/952" target="_blank" class="card-link">
+                    <div class="card-img2"><img src="img/card-img26.png" alt="" class="img-rwd"></div>
+                    <div class="black-content">
+                        <h4 class="black-content-h4">NIKE 青少年球褲</h4>
+                        <h4>透氣網眼布料</h4>
+                        <div class="black-content-style" style="text-align: right;">
+                            NT$1380
+                        </div>
+                        <div class="black-content-bottom">
+                            <div class="bg-w">籃球</div>
+                            <h2>NT$1242</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/product/detail/257" target="_blank" class="card-link">
+                    <div class="card-img2"><img src="img/card-img27.png" alt="" class="img-rwd"></div>
+                    <div class="black-content">
+                        <h4 class="black-content-h4">NIKE 中大童籃球鞋(紅藍)</h4>
+                        <h4>限時71折</h4>
+                        <div class="black-content-style" style="text-align: right;">
+                            NT$1800
+                        </div>
+                        <div class="black-content-bottom">
+                            <div class="bg-w">籃球</div>
+                            <h2>NT$1290</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <a href="https://www.o2gether.com.tw/product/7?insearch=1&sort=newest&price_min=&price_max=&label=11#goto-search" class="btn-more" target="_blank">
+                <img src="img/btn-more1.png" alt="" class="">
+            </a>
+            <div class="summer-txt">
+                <h2>Water Activities 水上</h2>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/product/detail/999" target="_blank" class="card-link">
+                    <div class="card-img2"><img src="img/card-img28.png" alt="" class="img-rwd"></div>
+                    <div class="black-content">
+                        <h4 class="black-content-h4">BILLABONG衝浪褲</h4>
+                        <h4>有後口袋設計</h4>
+                        <div class="black-content-style" style="text-align: right;">
+                            NT$2190
+                        </div>
+                        <div class="black-content-bottom">
+                            <div class="bg-w">水上</div>
+                            <h2>NT$1970</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/product/detail/680" target="_blank" class="card-link">
+                    <div class="card-img2"><img src="img/card-img29.png" alt="" class="img-rwd"></div>
+                    <div class="black-content">
+                        <h4 class="black-content-h4">Feelfree坦克防水包30L</h4>
+                        <h4>人體工學背負系統</h4>
+                        <div class="black-content-style" style="text-align: right;">
+                            NT$2580
+                        </div>
+                        <div class="black-content-bottom">
+                            <div class="bg-w">水上</div>
+                            <h2>NT$1780</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/product/detail/18" target="_blank" class="card-link">
+                    <div class="card-img2"><img src="img/card-img30.png" alt="" class="img-rwd"></div>
+                    <div class="black-content">
+                        <h4 class="black-content-h4">ADIDAS中大童涼鞋(黑)</h4>
+                        <h4>限時58折</h4>
+                        <div class="black-content-style" style="text-align: right;">
+                            NT$1490
+                        </div>
+                        <div class="black-content-bottom">
+                            <div class="bg-w">水上</div>
+                            <h2>NT$860</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <a href="https://www.o2gether.com.tw/product/2?insearch=1&sort=newest&price_min=&price_max=&label=11#goto-search" class="btn-more" target="_blank">
+                <img src="img/btn-more1.png" alt="" class="">
+            </a>
+            <div class="summer-txt">
+                <h2>Outdoor activities 戶外</h2>
+            </div>
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/product/detail/715" target="_blank" class="card-link">
+                    <div class="card-img2"><img src="img/card-img31.png" alt="" class="img-rwd"></div>
+                    <div class="black-content">
+                        <h4 class="black-content-h4">The North Face 短袖上衣</h4>
+                        <h4>限時76折</h4>
+                        <div class="black-content-style" style="text-align: right;">
+                            NT$1480
+                        </div>
+                        <div class="black-content-bottom">
+                            <div class="bg-w">戶外</div>
+                            <h2>NT$1132</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/product/detail/744" target="_blank" class="card-link">
+                    <div class="card-img2"><img src="img/card-img32.png" alt="" class="img-rwd"></div>
+                    <div class="black-content">
+                        <h4 class="black-content-h4">The North Face 吸濕排汗短褲</h4>
+                        <h4>限時76折</h4>
+                        <div class="black-content-style" style="text-align: right;">
+                            NT$2380
+                        </div>
+                        <div class="black-content-bottom">
+                            <div class="bg-w">戶外</div>
+                            <h2>NT$1821</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="card">
+                <a href="https://www.o2gether.com.tw/product/detail/361" target="_blank" class="card-link">
+                    <div class="card-img2"><img src="img/card-img33.png" alt="" class="img-rwd"></div>
+                    <div class="black-content">
+                        <h4 class="black-content-h4">CONVERSE 側背包</h4>
+                        <h4>限時79折</h4>
+                        <div class="black-content-style" style="text-align: right;">
+                            NT$990
+                        </div>
+                        <div class="black-content-bottom">
+                            <div class="bg-w">戶外</div>
+                            <h2>NT$790</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <a href="https://www.o2gether.com.tw/product/4?insearch=1&sort=newest&price_min=&price_max=&label=11#goto-search" class="btn-more" target="_blank">
+                <img src="img/btn-more1.png" alt="" class="">
+            </a>
+        </div>
+    </div>
+    <a href="##" class="btn-top"><img src="img/btn-top.png" alt=""></a>
+    <div class="footer">
+        <div class="container">
+            <div><img src="img/logo.png" alt=""></div>
+            <div class="footer-txt"><img src="img/footer-txt.png" alt=""></div>
+            <div>
+                <a href="https://bit.ly/3cSExDy" target="_blank"><img src="img/fb.png" alt=""></a>
+                <a href="https://bit.ly/2AMYugF" target="_blank"><img src="img/line.png" alt=""></a>
+                <a href="https://bit.ly/2LMJQZj" target="_blank"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
