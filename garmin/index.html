@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Title" CONTENT="O2Gether企業客戶優惠專案">
+    <meta name="keywords" content="O2Gether、Garmin、企業客戶、團購">
+    <meta name="description" content="O2Gether企業客戶優惠專案" />
+    <meta name="author" content="O2Gether運動平台" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O2Gether企業客戶優惠專案</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanstc.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158730191-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158730191-2');
+    </script>
+
+    <script>
+        $(function(){
+	        $('.btn-top').click(function(){
+		        $('html, body').animate({
+                    scrollTop: 0
+                }, 300);
+		        return false;
+	        });
+
+            $('.menu-m').click(function(){
+                $('.menu-block-mb').stop().fadeToggle(300)
+                $(this).toggleClass("active");
+            })
+
+            if(screen.width <= 1024){
+                $('.menu li a').click(function(){
+                    $('.menu-block-mb').fadeOut()
+                    $(".menu-m").removeClass("active");
+                })
+            }
+            if($(window).width <= 1024){
+                $('.menu li a').click(function(){
+                    $('.menu-block-mb').fadeOut()
+                    $(".menu-m").removeClass("active");
+                })
+            }
+
+
+
+            $('.menu-1').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section1').offset().top}, 300);
+            });
+            $('.menu-2').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section2').offset().top}, 300);
+            });  
+            $('.menu-3').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section3').offset().top}, 300);
+            });  
+            $('.menu-4').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section4').offset().top}, 300);
+            });  
+
+            $(window).scroll(function(){
+                var window_scrollTop = $(window).scrollTop();
+                // last=$("body").height()-$(window).height()-150
+                console.log(window_scrollTop, 'scroll')
+                if(window_scrollTop > 200){
+                    $(".btn-top").stop().fadeIn(300);
+                }else{
+                    $(".btn-top").stop().fadeOut(100);
+                }
+            })
+
+        });
+
+        
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="https://www.o2gether.com.tw/" target="_blank">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <a href="##" class="menu-m">
+                <!-- <img src="img/menu-m.png" alt=""> -->
+                <div class="hamBar">
+                    <div class="bar bar1 transition"></div>
+                    <div class="bar bar2 transition"></div>
+                    <div class="bar bar3 transition"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="relative">
+        <img src="img/banner.jpg" alt="" class="img-banner banner-pc">
+        <img src="img/banner-m.jpg" alt="" class="img-banner banner-m">
+        <div class="sectionBlock" id="section1"></div>
+    </div>
+
+    <div class="menu-block">
+        <div class="menu_look">
+            <ul class="menu">
+                <li><a href="#section1" class="menu-1">跑步</a></li>
+                <li><a href="#section2" class="menu-2">籃球</a></li>
+                <li><a href="#section3" class="menu-3">戶外</a></li>
+                <li><a href="#section4" class="menu-4">健身</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="menu-block-mb">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="#section1" class="menu-1">跑步</a></li>
+                <li><a href="#section2" class="menu-2">籃球</a></li>
+                <li><a href="#section3" class="menu-3">戶外</a></li>
+                <li><a href="#section4" class="menu-4">健身</a></li>
+            </ul>
+            <div class="menu-m-social">
+                <a href="https://bit.ly/3cSExDy"><img src="img/fb.png" alt=""></a>
+                <a href="https://bit.ly/2AMYugF"><img src="img/line.png" alt=""></a>
+                <a href="https://bit.ly/2LMJQZj"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-8a8a8a">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h3>Running</h3>
+                    <h2>跑步</h2>
+                </div>
+            </div>
+            <div class="cardFlex">
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/511" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/run01.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">NIKE REVOLUTION 5 跑步鞋</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$1,460</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/865" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/run02.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">NIKE DOWNSHIFTER 10 慢跑鞋</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$1,668</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/863" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/run03.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">NIKE ZOOM WINFLO 7 慢跑鞋</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$2,086</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/837" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/run04.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">ADIDAS ULTRABOOST 20 City Pack Hype 慢跑鞋</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$4,164</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/58" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/run05.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">ADIDAS ULTRABOOST 20 City Pack Hype 跑步鞋</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$4,164</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/830" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/run06.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">ADIDAS ULTRA BOOST  跑步鞋</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$4,164</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.o2gether.com.tw/product/6?insearch=1&sort=newest&price_min=&price_max=&label=12#goto-search" class="btn-more" target="_blank">
+            <img src="img/btn-more1.png" alt="" class="">
+        </a>
+        <div class="sectionBlock" id="section2"></div>
+    </div>
+
+    <div class="bg-595959">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h3>BasketBall</h3>
+                    <h2>籃球</h2>
+                </div>
+            </div>
+            <div class="cardFlex">
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/875" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/basketball01.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">NIKE KYRIE 6 EP 籃球鞋</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$2,920</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/874" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/basketball02.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">NIKE KYRIE 6 EP 籃球鞋</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$2,920</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/908" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/basketball03.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">PUMA Suede Classic+ 籃球鞋</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$1,794</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/907" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/basketball04.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">PUMA Basket Classic LFS 籃球鞋</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$1,863</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/906" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/basketball05.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">PUMA Basket Classic LFS 籃球鞋</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$1,863</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/852" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/basketball06.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">Nike JUMPMAN NOSHOW 3PPK 短筒襪</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$243</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.o2gether.com.tw/product/7?insearch=1&sort=newest&price_min=&price_max=&label=12#goto-search" class="btn-more" target="_blank">
+            <img src="img/btn-more1.png" alt="" class="">
+        </a>
+        <div class="sectionBlock" id="section3"></div>
+    </div>
+
+    <div class="bg-8a8a8a">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h3>Outdoor</h3>
+                    <h2>戶外</h2>
+                </div>
+            </div>
+            <div class="cardFlex">
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/755" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/outdoor01.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">The North Face FLASHDRY吸濕排汗短袖T恤</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$818</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/723" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/outdoor02.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">The North Face FlashDry 吸濕排汗短袖上衣</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$1,330</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/775" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/outdoor03.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">The North Face 速乾透氣運動休閒長袖T恤 深灰</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$1,602</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/785" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/outdoor04.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">The North Face 防水透氣防風外套</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$2,550</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/783" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/outdoor05.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">The North Face 吸濕排汗Logo長袖 帽T</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$1,138</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/754" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/outdoor06.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">The North Face 防水透氣防風外套</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$6,634</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.o2gether.com.tw/product/4?insearch=1&sort=newest&price_min=&price_max=&label=12#goto-search" class="btn-more" target="_blank">
+            <img src="img/btn-more1.png" alt="" class="">
+        </a>
+        <div class="sectionBlock" id="section4"></div>
+    </div>
+
+    <div class="bg-595959">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h3>Fitness</h3>
+                    <h2>健身</h2>
+                </div>
+            </div>
+            <div class="cardFlex">
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/851" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/fitness01.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">Nike NK EVERYDAY CUSH CREW 3PR 中統襪</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$243</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/846" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/fitness02.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">Nike NK EVERYDAY LTWT CREW 3PR 中統襪</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$243</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/845" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/fitness03.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">Nike NK EVERYDAY LTWT ANKLE 3PR 踝襪</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$243</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/844" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/fitness04.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">Nike NK EVERYDAY LTWT ANKLE 3PR 踝襪</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$243</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/842" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/fitness05.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">NIKE U NK EVERYDAY LTWT NS 3PR 隱形襪</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$243</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.o2gether.com.tw/product/detail/841" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/fitness06.jpg" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">NIKE U NK EVERYDAY LTWT NS 3PR 隱形襪</h4>
+                            <div class="card-content-style">
+                                <span class="middle">折後價：</span>
+                                <span class="card_price">$243</span>
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">我要購買</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.o2gether.com.tw/product/1?insearch=1&sort=newest&price_min=&price_max=&label=12#goto-search" class="btn-more" target="_blank">
+            <img src="img/btn-more1.png" alt="" class="">
+        </a>
+    </div>
+
+    <div class="directions-wrap">
+        <div class="container relative">
+            <div class="foot-flex">
+                <div class="footLogo">
+                    <img src="img/footLogo.png" alt="">
+                </div>
+                <div class="w-50p">
+                    <div class="directions-block">
+                        <div class="direct_text">「O2Gether」是全台最大運動通路「摩曼頓」打造的全新型態運動社群服務平台。
+                            以過去40年來專注在運動領域的深耕和經驗，為運動愛好者嚴選最優質的運動體驗
+                            和商品，希望共同喚起你與朋友在運動旅程中一起持續前進的動力和渴望。</div>
+                        <a href="https://www.o2gether.com.tw/" target="_blank">了解更多O2Gether</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="##" class="btn-top"><img src="img/btn-top.png" alt=""></a>
+
+    <div class="footer">
+        <div class="container">
+            <div><img src="img/logo.png" alt=""></div>
+            <div class="footer-txt"><img src="img/footer-txt.png" alt=""></div>
+            <div>
+                <a href="https://bit.ly/3cSExDy" target="_blank"><img src="img/fb.png" alt=""></a>
+                <a href="https://bit.ly/2AMYugF" target="_blank"><img src="img/line.png" alt=""></a>
+                <a href="https://bit.ly/2LMJQZj" target="_blank"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
