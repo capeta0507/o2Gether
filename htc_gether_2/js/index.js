@@ -161,81 +161,89 @@ let outdoorCard = ''
 let fitnessCard = ''
 runningList.map(data => {
   // console.log('data', data)
-  runningCard += `<div class="card">`;
-  runningCard += `<a href="${data.link}" target="_blank" class="card-link">`;
-  runningCard += `<div class="card-img"><img src="${data.img}" alt="" class="img-rwd"></div>`;
-  runningCard += `<div class="card-content">`;
-  runningCard += `<h4 class="card-content-h4">${data.name}</h4>`;
-  runningCard += `<div class="card-content-style">`;
-  runningCard += `<span class="middle">折後價：</span>`;
-  runningCard += `<span class="card_price">${data.price}</span>`;
-  runningCard += `</div>`;
-  runningCard += `<div class="card-content-bottom">`;
-  runningCard += `<div class="bg-o">我要購買</div>`;
-  runningCard += `</div>`;
-  runningCard += `</div>`;
-  runningCard += `</a>`;
-  runningCard += `</div>`;
+  runningCard += `
+    <div class="card">
+      <a href="${data.link}" target="_blank" class="card-link">
+          <div class="card-img"><img src="${data.img}" alt="" class="img-rwd"></div>
+          <div class="card-content">
+              <h4 class="card-content-h4">${data.name}</h4>
+              <div class="card-content-style">
+                  <span class="middle">折後價：</span>
+                  <span class="card_price">${data.price}</span>
+              </div>
+              <div class="card-content-bottom">
+                  <div class="bg-o">我要購買</div>
+              </div>
+          </div>
+      </a>
+    </div>
+  `
 })
 
 document.getElementById('myRunning').innerHTML = runningCard
 
 basketballList.map(data => {
   // console.log('data', data)
-  basketballCard += `<div class="card">`;
-  basketballCard += `<a href="${data.link}" target="_blank" class="card-link">`;
-  basketballCard += `<div class="card-img"><img src="${data.img}" alt="" class="img-rwd"></div>`;
-  basketballCard += `<div class="card-content">`;
-  basketballCard += `<h4 class="card-content-h4">${data.name}</h4>`;
-  basketballCard += `<div class="card-content-style">`;
-  basketballCard += `<span class="middle">折後價：</span>`;
-  basketballCard += `<span class="card_price">${data.price}</span>`;
-  basketballCard += `</div>`;
-  basketballCard += `<div class="card-content-bottom">`;
-  basketballCard += `<div class="bg-o">我要購買</div>`;
-  basketballCard += `</div>`;
-  basketballCard += `</div>`;
-  basketballCard += `</a>`;
-  basketballCard += `</div>`;
+  basketballCard += `
+    <div class="card">
+      <a href="${data.link}" target="_blank" class="card-link">
+        <div class="card-img"><img src="${data.img}" alt="" class="img-rwd"></div>
+        <div class="card-content">
+            <h4 class="card-content-h4">${data.name}</h4>
+            <div class="card-content-style">
+                <span class="middle">折後價：</span>
+                <span class="card_price">${data.price}</span>
+            </div>
+            <div class="card-content-bottom">
+                <div class="bg-o">我要購買</div>
+            </div>
+        </div>
+      </a>
+    </div>
+  `;
 })
 document.getElementById('myBasketball').innerHTML = basketballCard
 
 outdoorList.map(data => {
   // console.log('data', data)
-  outdoorCard += `<div class="card">`;
-  outdoorCard += `<a href="${data.link}" target="_blank" class="card-link">`;
-  outdoorCard += `<div class="card-img"><img src="${data.img}" alt="" class="img-rwd"></div>`;
-  outdoorCard += `<div class="card-content">`;
-  outdoorCard += `<h4 class="card-content-h4">${data.name}</h4>`;
-  outdoorCard += `<div class="card-content-style">`;
-  outdoorCard += `<span class="middle">折後價：</span>`;
-  outdoorCard += `<span class="card_price">${data.price}</span>`;
-  outdoorCard += `</div>`;
-  outdoorCard += `<div class="card-content-bottom">`;
-  outdoorCard += `<div class="bg-o">我要購買</div>`;
-  outdoorCard += `</div>`;
-  outdoorCard += `</div>`;
-  outdoorCard += `</a>`;
-  outdoorCard += `</div>`;
+  outdoorCard += `
+    <div class="card">
+      <a href="${data.link}" target="_blank" class="card-link">
+        <div class="card-img"><img src="${data.img}" alt="" class="img-rwd"></div>
+        <div class="card-content">
+            <h4 class="card-content-h4">${data.name}</h4>
+            <div class="card-content-style">
+                <span class="middle">折後價：</span>
+                <span class="card_price">${data.price}</span>
+            </div>
+            <div class="card-content-bottom">
+                <div class="bg-o">我要購買</div>
+            </div>
+        </div>
+      </a>
+    </div>
+  `;
 })
 document.getElementById('myOutdoor').innerHTML = outdoorCard
 
 fitnessList.map(data => {
   // console.log('data', data)
-  fitnessCard += `<div class="card">`;
-  fitnessCard += `<a href="${data.link}" target="_blank" class="card-link">`;
-  fitnessCard += `<div class="card-img"><img src="${data.img}" alt="" class="img-rwd"></div>`;
-  fitnessCard += `<div class="card-content">`;
-  fitnessCard += `<h4 class="card-content-h4">${data.name}</h4>`;
-  fitnessCard += `<div class="card-content-style">`;
-  fitnessCard += `<span class="middle">折後價：</span>`;
-  fitnessCard += `<span class="card_price">${data.price}</span>`;
-  fitnessCard += `</div>`;
-  fitnessCard += `<div class="card-content-bottom">`;
-  fitnessCard += `<div class="bg-o">我要購買</div>`;
-  fitnessCard += `</div>`;
-  fitnessCard += `</div>`;
-  fitnessCard += `</a>`;
-  fitnessCard += `</div>`;
+  fitnessCard += `
+    <div class="card">
+      <a href="${data.link}" target="_blank" class="card-link">
+        <div class="card-img"><img src="${data.img}" alt="" class="img-rwd"></div>
+        <div class="card-content">
+            <h4 class="card-content-h4">${data.name}</h4>
+            <div class="card-content-style">
+                <span class="middle">折後價：</span>
+                <span class="card_price">${data.price}</span>
+            </div>
+            <div class="card-content-bottom">
+                <div class="bg-o">我要購買</div>
+            </div>
+        </div>
+      </a>
+    </div>
+  `;
 })
 document.getElementById('myFitness').innerHTML = fitnessCard
