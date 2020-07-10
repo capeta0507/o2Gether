@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Title" CONTENT=" O2Gether 振興三倍專區！">
+    <meta name="keywords" content="O2Gether, 振興三倍券, 加碼送你折價券">
+    <meta name="description" content="O2Gether 振興三倍券專區 紓困體脂肪 振興三倍肌" />
+    <meta name="author" content="O2Gether運動生活平台" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O2Gether運動生活平台 | 振興三倍券專區</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanstc.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158730191-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158730191-2');
+    </script>
+
+    <script>
+        $(function(){
+	        $('.btn-top').click(function(){
+		        $('html, body').animate({
+                    scrollTop: 0
+                }, 300);
+		        return false;
+	        });
+
+            $('.menu-m').click(function(){
+                $('.menu-block-mb').stop().fadeToggle(300)
+                $(this).toggleClass("active");
+            })
+
+            if(screen.width <= 1024){
+                $('.menu li a').click(function(){
+                    $('.menu-block-mb').fadeOut()
+                    $(".menu-m").removeClass("active");
+                })
+            }
+            if($(window).width <= 1024){
+                $('.menu li a').click(function(){
+                    $('.menu-block-mb').fadeOut()
+                    $(".menu-m").removeClass("active");
+                })
+            }
+
+
+
+            $('.menu-1').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section1').offset().top}, 300);
+            });
+            $('.menu-2').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section2').offset().top}, 300);
+            });  
+            $('.menu-3').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section3').offset().top}, 300);
+            });   
+            $('.menu-4').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section4').offset().top}, 300);
+            });  
+            $('.menu-5').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section5').offset().top}, 300);
+            });  
+            $('.menu-6').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section6').offset().top}, 300);
+            });  
+
+            $(window).scroll(function(){
+                var window_scrollTop = $(window).scrollTop();
+                // last=$("body").height()-$(window).height()-150
+                console.log(window_scrollTop, 'scroll')
+                if(window_scrollTop > 200){
+                    $(".btn-top").stop().fadeIn(300);
+                }else{
+                    $(".btn-top").stop().fadeOut(100);
+                }
+            })
+
+        });
+
+        
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="https://www.o2gether.com.tw/" target="_blank">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <a href="##" class="menu-m">
+                <!-- <img src="img/menu-m.png" alt=""> -->
+                <div class="hamBar">
+                    <div class="bar bar1 transition"></div>
+                    <div class="bar bar2 transition"></div>
+                    <div class="bar bar3 transition"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="relative">
+        <a class="revitalize-pc" href="https://3000.gov.tw/News_Content.aspx?Create=1&n=53&state=F5D336F102ACBC68&s=635&ccms_cs=1&sms=9110" target="_blank">
+            <img src="img/revitalize.jpg" alt="">
+        </a>
+        <a class="revitalize-mb" href="https://3000.gov.tw/News_Content.aspx?Create=1&n=53&state=F5D336F102ACBC68&s=635&ccms_cs=1&sms=9110" target="_blank">
+            <img src="img/revitalize-m.jpg" alt="">
+        </a>
+        <img src="img/banner.jpg" alt="" class="img-rwd banner-pc">
+        <img src="img/banner-m.jpg" alt="" class="img-rwd banner-m">
+        <div class="sectionBlock" id="section1"></div>
+    </div>
+
+    <div class="menu-block">
+        <div class="menu_look">
+            <ul class="menu">
+                <li><a href="#section1" class="menu-1">戶外</a></li>
+                <li><a href="#section2" class="menu-2">水上</a></li>
+                <li><a href="#section3" class="menu-3">籃球</a></li>
+                <li><a href="#section4" class="menu-4">健身</a></li>
+                <li><a href="#section5" class="menu-5">跑步</a></li>
+                <li><a href="#section6" class="menu-6">瑜珈有氧</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="menu-block-mb">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="#section1" class="menu-1">戶外</a></li>
+                <li><a href="#section2" class="menu-2">水上</a></li>
+                <li><a href="#section3" class="menu-3">籃球</a></li>
+                <li><a href="#section4" class="menu-4">健身</a></li>
+                <li><a href="#section5" class="menu-5">跑步</a></li>
+                <li><a href="#section6" class="menu-6">瑜珈有氧</a></li>
+            </ul>
+            <div class="menu-m-social">
+                <a href="https://bit.ly/3cSExDy"><img src="img/fb.png" alt=""></a>
+                <a href="https://bit.ly/2AMYugF"><img src="img/line.png" alt=""></a>
+                <a href="https://bit.ly/2LMJQZj"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="bg-8a8a8a pd-1">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h2>戶外OUTDOOR SPORTS</h2>
+                </div>
+            </div>
+            <div id="myOutdoor">
+                <!-- <div class="card">
+                    <a href="https://www.o2gether.com.tw/event/detail/103" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/card-img1.png" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">LEADERkids </h4>
+                            <h4 class="card-content-h4" style="height: 22px;">2020 兒童運動旅遊</h4>
+                            
+                            <div class="card-content-style">
+                                <img src="img/coin.png" alt="" class="middle">
+                                <span class="middle mr18">NT$ 1800up</span>    
+                            </div>
+                            <div class="card-content-style2">
+                                <img src="img/ticket.png" alt="" class="middle">
+                                <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">戶外</div>
+                                <div class="bg-g">台北市</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.o2gether.com.tw/supplier/detail/38" class="card-logo" target="_blank"><img src="img/card-logo05.png" alt="" class="img-rwd"></a>
+                </div> -->
+            </div>
+        </div>
+        <a href="https://bit.ly/2W4myn2" class="btn-more" target="_blank">
+            <img src="img/other_outdoor.png" alt="" class="">
+        </a>
+        <div class="sectionBlock" id="section2"></div>
+    </div>
+
+    <div class="bg-595959 pd-1">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h2>水上WATER SPORTS</h2>
+                </div>
+            </div>
+            <div id="myWater">
+                <!-- <div class="card">
+                    <a href="https://www.o2gether.com.tw/event/detail/117" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/card-img13.png" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">假日玩耍團-</h4>
+                            <h4 class="card-content-h4">龍門SUP體驗</h4>
+                            
+                            <div class="card-content-style">
+                                <img src="img/coin.png" alt="" class="middle">
+                                <span class="middle mr18">NT$ 1200</span>    
+                            </div>
+                            <div class="card-content-style2">
+                                <img src="img/ticket.png" alt="" class="middle">
+                                <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">水上</div>
+                                <div class="bg-g">新北市</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.o2gether.com.tw/supplier/detail/13" class="card-logo" target="_blank"><img src="img/card-logo03.png" alt="" class="img-rwd"></a>
+                </div> -->
+            </div>
+        </div>
+        <a href="https://bit.ly/3iGNtz0" class="btn-more" target="_blank">
+            <img src="img/other_water.png" alt="" class="">
+        </a>
+        <div class="sectionBlock" id="section3"></div>
+    </div>
+
+    <div class="bg-8a8a8a pd-1">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h2>籃球BASKETBALL</h2>
+                </div>
+            </div>
+            <div id="myBasketball">
+                <!-- <div class="card">
+                    <a href="https://www.o2gether.com.tw/event/detail/117" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/card-img13.png" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">假日玩耍團-</h4>
+                            <h4 class="card-content-h4">龍門SUP體驗</h4>
+                            
+                            <div class="card-content-style">
+                                <img src="img/coin.png" alt="" class="middle">
+                                <span class="middle mr18">NT$ 1200</span>    
+                            </div>
+                            <div class="card-content-style2">
+                                <img src="img/ticket.png" alt="" class="middle">
+                                <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">水上</div>
+                                <div class="bg-g">新北市</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.o2gether.com.tw/supplier/detail/13" class="card-logo" target="_blank"><img src="img/card-logo03.png" alt="" class="img-rwd"></a>
+                </div> -->
+            </div>
+        </div>
+        <a href="https://bit.ly/2BVciqr" class="btn-more" target="_blank">
+            <img src="img/other_basketball.png" alt="" class="">
+        </a>
+        <div class="sectionBlock" id="section4"></div>
+    </div>
+    <div class="bg-595959 pd-1">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h2>健身FITNESS</h2>
+                </div>
+            </div>
+            <div id="myFitness">
+                <!-- <div class="card">
+                    <a href="https://www.o2gether.com.tw/event/detail/117" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/card-img13.png" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">假日玩耍團-</h4>
+                            <h4 class="card-content-h4">龍門SUP體驗</h4>
+                            
+                            <div class="card-content-style">
+                                <img src="img/coin.png" alt="" class="middle">
+                                <span class="middle mr18">NT$ 1200</span>    
+                            </div>
+                            <div class="card-content-style2">
+                                <img src="img/ticket.png" alt="" class="middle">
+                                <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">水上</div>
+                                <div class="bg-g">新北市</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.o2gether.com.tw/supplier/detail/13" class="card-logo" target="_blank"><img src="img/card-logo03.png" alt="" class="img-rwd"></a>
+                </div> -->
+            </div>
+        </div>
+        <a href="https://bit.ly/2ZtPJlV" class="btn-more" target="_blank">
+            <img src="img/other_fitness.png" alt="" class="">
+        </a>
+        <div class="sectionBlock" id="section5"></div>
+    </div>
+    <div class="bg-8a8a8a pd-1">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h2>跑步RUNNING</h2>
+                </div>
+            </div>
+            <div id="myRunning">
+                <!-- <div class="card">
+                    <a href="https://www.o2gether.com.tw/event/detail/117" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/card-img13.png" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">假日玩耍團-</h4>
+                            <h4 class="card-content-h4">龍門SUP體驗</h4>
+                            
+                            <div class="card-content-style">
+                                <img src="img/coin.png" alt="" class="middle">
+                                <span class="middle mr18">NT$ 1200</span>    
+                            </div>
+                            <div class="card-content-style2">
+                                <img src="img/ticket.png" alt="" class="middle">
+                                <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">水上</div>
+                                <div class="bg-g">新北市</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.o2gether.com.tw/supplier/detail/13" class="card-logo" target="_blank"><img src="img/card-logo03.png" alt="" class="img-rwd"></a>
+                </div> -->
+            </div>
+        </div>
+        <a href="https://bit.ly/3iKSEOp" class="btn-more" target="_blank">
+            <img src="img/other_running.png" alt="" class="">
+        </a>
+        <div class="sectionBlock" id="section6"></div>
+    </div>
+    <div class="bg-595959 pd-1">
+        <div class="container">
+            <div class="title-img">
+                <div class="title-txt">
+                    <h2>瑜珈有氧YOGA & AEROBICS</h2>
+                </div>
+            </div>
+            <div id="myYoga">
+                <!-- <div class="card">
+                    <a href="https://www.o2gether.com.tw/event/detail/117" target="_blank" class="card-link">
+                        <div class="card-img"><img src="img/card-img13.png" alt="" class="img-rwd"></div>
+                        <div class="card-content">
+                            <h4 class="card-content-h4">假日玩耍團-</h4>
+                            <h4 class="card-content-h4">龍門SUP體驗</h4>
+                            
+                            <div class="card-content-style">
+                                <img src="img/coin.png" alt="" class="middle">
+                                <span class="middle mr18">NT$ 1200</span>    
+                            </div>
+                            <div class="card-content-style2">
+                                <img src="img/ticket.png" alt="" class="middle">
+                                <span class="middle mr18">再送GO Wild 300元購物金</span>    
+                            </div>
+                            <div class="card-content-bottom">
+                                <div class="bg-o">水上</div>
+                                <div class="bg-g">新北市</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.o2gether.com.tw/supplier/detail/13" class="card-logo" target="_blank"><img src="img/card-logo03.png" alt="" class="img-rwd"></a>
+                </div> -->
+            </div>
+        </div>
+        <a href="https://bit.ly/2OeQSa8" class="btn-more" target="_blank">
+            <img src="img/other_yuga.png" alt="" class="">
+        </a>
+    </div>
+    <a href="##" class="btn-top"><img src="img/btn-top.png" alt=""></a>
+    <div class="footer">
+        <div class="container">
+            <div><img src="img/logo.png" alt=""></div>
+            <div class="footer-txt"><img src="img/footer-txt.png" alt=""></div>
+            <div>
+                <a href="https://bit.ly/3cSExDy" target="_blank"><img src="img/fb.png" alt=""></a>
+                <a href="https://bit.ly/2AMYugF" target="_blank"><img src="img/line.png" alt=""></a>
+                <a href="https://bit.ly/2LMJQZj" target="_blank"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>
