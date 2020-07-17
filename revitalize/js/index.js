@@ -154,7 +154,7 @@ const fitnessList = [
     "img": "img/card-img23.png",
     "content_name1": "科學健身、拳擊、",
     "content_name2": "綜合格鬥一次滿足!!",
-    "price": "NT$ 5500",
+    "price": "NT$ 5000",
     "nature": "健身",
     "place": "台中市",
     "logo_link": "https://www.o2gether.com.tw/supplier/detail/84",
@@ -236,26 +236,37 @@ const runningList = [
 // 瑜珈
 const yogiList = [
   {
-    "link": "https://bit.ly/38JT7vF",
+    "link": "https://bit.ly/30h4nMd",
     "img": "img/card-img27.png",
-    "content_name1": "Yoga Kafe「基礎瑜珈」",
-    "content_name2": "專班 - 給初學者的瑜珈入門課程",
-    "price": "NT$ 2640",
+    "content_name1": "Yoga Kafe × O2Gether",
+    "content_name2": "三倍券瑜珈特別方案",
+    "price": "NT$ 3000",
     "nature": "瑜珈",
     "place": "新北市",
     "logo_link": "https://www.o2gether.com.tw/supplier/detail/24",
     "logo": "img/card-logo60.png"
   },
   {
-    "link": "https://bit.ly/2ZbXDA2",
+    "link": "https://bit.ly/2Wq0xiY",
     "img": "img/card-img28.png",
-    "content_name1": "美麗綻放 ‧ 女子力瑜珈",
+    "content_name1": "團體健身流行課程體驗會",
     "content_name2": "",
-    "price": "NT$ 800",
+    "price": "NT$ 1490",
     "nature": "瑜珈",
-    "place": "新北市",
-    "logo_link": "https://www.o2gether.com.tw/supplier/detail/24",
-    "logo": "img/card-logo60.png"
+    "place": "台北市",
+    "logo_link": "https://bit.ly/3ewKFRO",
+    "logo": "img/card-logo61.jpg"
+  },
+  {
+    "link": "https://bit.ly/3eEcGXH",
+    "img": "img/card-img29.png",
+    "content_name1": "iPURE滑板肌力燃脂課程",
+    "content_name2": "",
+    "price": "NT$ 1500",
+    "nature": "瑜珈",
+    "place": "台北市",
+    "logo_link": "https://bit.ly/3ewKFRO",
+    "logo": "img/card-logo61.jpg"
   }
 ]
 
