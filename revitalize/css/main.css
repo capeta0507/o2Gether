@@ -96,34 +96,6 @@ body{
 .relative{
     position: relative;
 }
-.linkBlock{
-    width: 20.5%;
-    height: 37%;
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-.linkBlock div{
-    /* width: 100%;
-    height: 100%; */
-    border-right: 36.3vh solid transparent;
-    border-left: 0px solid transparent;
-    border-bottom: 36.3vh solid blue;
-    display:inline-block;
-    position: absolute;
-    /* z-index: 4; */
-}
-.linkBlock a{
-    /* width: 100%;
-    height: 100%; */
-    border-right: 0px solid transparent;
-    border-left: 36.3vh solid transparent;
-    border-top: 36.3vh solid #000;
-    display:inline-block;
-    position: absolute;
-    z-index: 1;
-}
 .revitalize-pc{
     position: absolute;
     display: block;
@@ -691,30 +663,6 @@ body{
     .pcApplogo{
         display: none;
     }
-    .linkBlock{
-        width: 34%;
-        height: 28%;
-    }
-    .linkBlock div{
-        /* width: 100%;
-        height: 100%; */
-        border-right: 17vh solid transparent;
-        border-left: 0px solid transparent;
-        border-bottom: 17vh solid blue;
-        display:inline-block;
-        position: absolute;
-        /* z-index: 4; */
-    }
-    .linkBlock a{
-        /* width: 100%;
-        height: 100%; */
-        border-right: 0px solid transparent;
-        border-left: 17vh solid transparent;
-        border-top: 17vh solid #000;
-        display:inline-block;
-        position: absolute;
-        z-index: 1;
-    }
 
 }
 
@@ -797,30 +745,6 @@ body{
     .ver-bottom{
         width: 130px;
         margin-bottom: 20px;
-    }
-    .linkBlock{
-        width: 35%;
-        height: 28%;
-    }
-    .linkBlock div{
-        /* width: 100%;
-        height: 100%; */
-        border-right: 19vh solid transparent;
-        border-left: 0px solid transparent;
-        border-bottom: 19vh solid blue;
-        display:inline-block;
-        position: absolute;
-        /* z-index: 4; */
-    }
-    .linkBlock a{
-        /* width: 100%;
-        height: 100%; */
-        border-right: 0px solid transparent;
-        border-left: 19vh solid transparent;
-        border-top: 19vh solid #000;
-        display:inline-block;
-        position: absolute;
-        z-index: 1;
     }
 }
 
