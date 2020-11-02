@@ -1,0 +1,495 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans TC', '思源黑體', sans-serif;
+}
+.header{
+    background-color: #000;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.container-menu{
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    display: inline-block;
+    padding: 10px 0;
+}
+.menu-m{
+    display: inline-block;
+    float: right;
+    width: 50px;
+    margin-top: 0px;
+    margin-right: 10px;
+    visibility: hidden;
+}
+.menu-m > img{
+    width: 100%;
+    height: auto;
+}
+.img-rwd{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.banner-m{
+    display: none;
+}
+.menu-block{
+    background-color: #FFAA00;
+    display: block;
+}
+.menu-block-mb{
+    display: none;
+}
+.menu li{
+    display: inline-block;
+    width: 30%;
+    margin-right: 27px;
+    text-align: center;
+}
+.menu li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+}
+.menu li img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+.menu-m-social{
+    display: none;
+}
+.bar{
+    width: 50px;
+    height: 8px;
+    background: #FDD000;
+    margin: 8px 0;
+    border-radius: 10px;
+    opacity: 0;
+    display: none;
+}
+.transition{
+    transition: 0.4s;
+}
+.sectionBlock{
+    position: absolute;
+}
+#section1{
+    bottom: 0%;
+}
+#section2{
+    bottom: 0%;
+}
+#section3{
+    bottom: 0%;
+}
+.title-txt{
+    margin-left: 192px;
+    padding-top: 36px;
+}
+.title-txt h3{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.title-txt h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 900;
+}
+.bg-081828{
+    background-color: #081828;
+    position: relative;
+    padding-top: 80px;
+}
+.bg-09335D{
+    background-color: #09335D;
+    position: relative;
+    padding: 10px 0px 20px 20px;
+}
+.con_title{
+    width: 35%;
+    margin: 0 auto;
+}
+.con_title img{
+    width: 100%;
+}
+.w-100{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.daybetSign{
+    width: 20%;
+    margin-top: 50px;
+}
+.daybetSign img{
+    width: 100%;
+}
+.daySign{
+    width: 60%;
+    /* margin: 0 auto; */
+}
+.daySign img{
+    width: 100%;
+}
+.day_content{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.w-960{
+    width: 960px;
+}
+.w-720{
+    width: 720px;
+}
+.day_card{
+    width: 22%;
+    margin-bottom: 20px;
+}
+.day_card2{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.day_card .day_commodity, .day_card2 .day_commodity{
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+.day_card .day_commodity img, .day_card2 .day_commodity img{
+    width: 100%;
+}
+.day_card .discount, .day_card2 .discount{
+    width: 35%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.day_card .discount img{
+    width: 100%;
+}
+.day_card .date, .day_card2 .date{
+    width: 50%;
+    margin: 0 auto;
+}
+.day_card2 .date1110{
+    width: 58%;
+    margin: 0 auto;
+}
+.day_card .date img, .day_card2 .date img{
+    width: 100%;
+}
+.day_card2 .date1110 img{
+    width: 100%;
+}
+.day_card .commodity_txt, .day_card2 .commodity_txt{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.day_card .commodity_txt .money, .day_card2 .commodity_txt .money{
+    margin-top: 3px;
+}
+.day_card .commodity_txt .money .slash, .day_card2 .commodity_txt .money .slash{
+    text-decoration: line-through;
+}
+.day_card .commodity_txt .money .cash, .day_card2 .commodity_txt .money .cash{
+    width: 16px;
+    position: relative;
+    top: 4px;
+    margin: 0 3px;
+}
+.section_left{
+    width: 25%;
+
+}
+.section_left img{
+    width: 100%;
+}
+.section_right{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+.section_right .section_card{
+    width: 30%;
+}
+.section_right .section_card img{
+    width: 100%;
+}
+.pdb01{
+    padding-bottom: 10px;
+}
+.mt80{
+    margin-top: 80px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.other_block{
+    width: 100%;
+    margin: 0 auto;
+}
+.other_block .other_link{
+    width: 15%;
+    float: right;
+    margin-bottom: 30px;
+}
+.other_block .other_link2{
+    width: 18%;
+    float: right;
+    margin-bottom: 30px;
+}
+.clear{
+    clear: both;
+}
+.other_block .other_link img, .other_block .other_link2 img{
+    width: 100%;
+}
+.btn-top{
+    position: fixed;
+    bottom: 14%;
+    right: 5%;
+    display: none;
+}
+.relative{
+    position: relative;
+}
+.footer{
+    background-color: #000;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 0;
+}
+.footer .container > div:first-child{
+    float: left;
+}
+.footer .container > div:last-child{
+    float: right;
+}
+.footer .container > div:last-child a{
+    margin: 0 10px;
+    display: inline-block;
+}
+.footer-txt{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footer-txt > img{
+    width: 100%;
+}
+.mbFlexNone{
+    display: flex;
+}
+.mbNone{
+    display: block;
+}
+.mbFlex{
+    display: none;
+}
+.mbBlock{
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+    #section1{
+        bottom: 14%;
+    }
+    #section2{
+        bottom: 2%;
+    }
+    #section3{
+        bottom: 2%;
+    }
+    .header{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+    .logo{
+        padding: 10px 0 10px 10px;
+    }
+    .menu-m{
+        visibility: visible;
+    }
+    .menu li a{
+        padding: 20px 0;
+    }
+    .banner-pc{
+        display: none;
+    }
+    .banner-m{
+        display: block;
+        margin-top: 58px;
+    }
+    .menu-block{
+        display: none;
+        background-color: rgba(0,0,0,.8);
+        width: 100%;
+        height: 100%;
+        padding: 0 20px;
+        position: fixed;
+        top: 58px;
+        z-index: 100;
+    }
+    .menu-block .menu li{
+        width: 100%;
+    }
+    .menu-block .menu li:last-child{
+        border-bottom: none;
+        margin-bottom: 50px;
+    }
+    .menu-block-mb{
+        display: none;
+        background-color: rgba(0,0,0,.8);
+        width: 100%;
+        height: 100%;
+        padding: 0 20px;
+        position: fixed;
+        top: 58px;
+        z-index: 100;
+    }
+    .menu-block-mb .menu li{
+        width: 100%;
+    }
+    .menu-block-mb .menu li:last-child{
+        border-bottom: none;
+        margin-bottom: 50px;
+    }
+    .menu-m-social{
+        display: block;
+    }
+    .menu-m-social{
+        text-align: center;
+    }
+    .menu-m-social a{
+        display: inline-block;
+        margin: 0 10px
+    }
+
+    .bar{
+        width: 50px;
+        height: 8px;
+        background: #FDD000;
+        margin: 8px 0;
+        border-radius: 10px;
+        display: block;
+		opacity: 1;
+	}
+	.active .bar1{
+		-webkit-transform: rotate(-45deg) translate(-8px, 12px) ;
+    transform: rotate(-45deg) translate(-8px, 12px);
+	}
+	
+	.active .bar2{opacity: 0;}
+	
+	.active .bar3{
+		-webkit-transform: rotate(45deg) translate(-10px, -15px) ;
+		transform: rotate(45deg) translate(-10px, -15px);
+  }
+    .bg-081828{
+        padding-top: 40px;
+    }
+    .daybetSign{
+        display: none;
+    }
+    .daySign{
+        width: 100%;
+    }
+    .day_content{
+        margin: 0 auto;
+        display: block;
+        justify-content: unset;
+    }
+    .w-960 {
+        width: 90%;
+    }
+    .w-720{
+        width: 90%;
+    }
+    .day_card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .day_card2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .btn-top{
+        position: fixed;
+        bottom: 8%;
+        right: 5%;
+        float: right;
+    }
+
+    .footer-txt{
+        position: static;
+        transform: none;
+    }
+    .footer .container > div:first-child, .footer .container > div:last-child{
+        display: none;
+    }
+    .mbFlexNone{
+        display: none;
+    }
+    .mbNone{
+        display: none;
+    }
+    .mbFlex{
+        display: flex;
+    }
+    .mbBlock{
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .mbFlexNone{
+        display: none;
+    }
+    .mbNone{
+        display: none;
+    }
+    .mbFlex{
+        display: flex;
+    }
+    .mbBlock{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .title-txt{
+        margin-left: 0;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .title-txt.black h2{
+        width: 100%;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .menu li a{
+        padding: 10px 0;
+    }
+}

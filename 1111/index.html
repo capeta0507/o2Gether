@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Title" CONTENT="O2Gether Gym Surfing 夏練衝一波！">
+    <meta name="keywords" content="Garmin Sports, Gym Surfing, 線上同步直播">
+    <meta name="description" content="Garmin Sports Gym Surfing夏練燃脂賽，全台精選駐站運動家陪你線下線上一起衝！" />
+    <meta name="author" content="O2Gether運動平台" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O2Gether運動平台 | Gym Surfing 夏練衝一波！</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanstc.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        $(function(){
+	        $('.btn-top').click(function(){
+		        $('html, body').animate({
+                    scrollTop: 0
+                }, 300);
+		        return false;
+	        });
+
+            $('.menu-m').click(function(){
+                $('.menu-block-mb').stop().fadeToggle(300)
+                $(this).toggleClass("active");
+            })
+
+            if(screen.width <= 1024){
+                $('.menu li a').click(function(){
+                    $('.menu-block-mb').fadeOut()
+                    $(".menu-m").removeClass("active");
+                })
+            }
+            if($(window).width <= 1024){
+                $('.menu li a').click(function(){
+                    $('.menu-block-mb').fadeOut()
+                    $(".menu-m").removeClass("active");
+                })
+            }
+
+
+
+            $('.menu-1').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section1').offset().top}, 300);
+            });
+            $('.menu-2').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section2').offset().top}, 300);
+            });  
+            $('.menu-3').click(function(){ 
+                $('html,body').animate({scrollTop:$('#section3').offset().top}, 300);
+            });  
+
+            $(window).scroll(function(){
+                var window_scrollTop = $(window).scrollTop();
+                // last=$("body").height()-$(window).height()-150
+                console.log(window_scrollTop, 'scroll')
+                if(window_scrollTop > 200){
+                    $(".btn-top").stop().fadeIn(300);
+                }else{
+                    $(".btn-top").stop().fadeOut(100);
+                }
+            })
+
+        });
+
+        
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="https://www.o2gether.com.tw/" target="_blank">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <a href="##" class="menu-m">
+                <!-- <img src="img/menu-m.png" alt=""> -->
+                <div class="hamBar">
+                    <div class="bar bar1 transition"></div>
+                    <div class="bar bar2 transition"></div>
+                    <div class="bar bar3 transition"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="">
+        <img src="img/banner.jpg" alt="" class="img-rwd banner-pc">
+        <img src="img/banner-m.jpg" alt="" class="img-rwd banner-m">
+    </div>
+
+    <div class="menu-block">
+        <div class="container-menu">
+            <ul class="menu">
+                <li><a href="#section1" class="menu-1"><img src="img/menu1.png" alt=""></a></li>
+                <li><a href="#section2" class="menu-2"><img src="img/menu2.png" alt=""></a></li>
+                <li><a href="#section3" class="menu-3"><img src="img/menu3.png" alt=""></a></li>
+            </ul>
+            <div class="menu-m-social">
+                <a href="https://www.instagram.com/o2gether_offical/?hl=zh-tw" target="_blank"><img src="img/ig.png" alt=""></a>
+                <a href="https://bit.ly/3cSExDy"><img src="img/fb.png" alt=""></a>
+                <a href="https://bit.ly/2AMYugF"><img src="img/line.png" alt=""></a>
+                <a href="https://bit.ly/2LMJQZj"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="menu-block-mb">
+        <div class="container">
+            <ul class="menu">
+                <li><a href="#section1" class="menu-1"><img src="img/menu1.png" alt=""></a></li>
+                <li><a href="#section2" class="menu-2"><img src="img/menu2.png" alt=""></a></li>
+                <li><a href="#section3" class="menu-3"><img src="img/menu3.png" alt=""></a></li>
+            </ul>
+            <div class="menu-m-social">
+                <a href="https://www.instagram.com/o2gether_offical/?hl=zh-tw" target="_blank"><img src="img/ig.png" alt=""></a>
+                <a href="https://bit.ly/3cSExDy"><img src="img/fb.png" alt=""></a>
+                <a href="https://bit.ly/2AMYugF"><img src="img/line.png" alt=""></a>
+                <a href="https://bit.ly/2LMJQZj"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="bg-09335D mbFlex"></div>
+    <div class="bg-081828">
+        <div class="sectionBlock" id="section1" style="top: 0;"></div>
+        <div class="container">
+            <div class="w-100">
+                <div class="daybetSign">
+                    <img src="img/run.png" alt="">
+                </div>
+                <div class="daySign">
+                    <img src="img/sign_day.png" alt="">
+                </div>
+                <div class="daybetSign">
+                    <img src="img/hot.png" alt="">
+                </div>
+            </div>
+            <div class="day_content w-960">
+                <div class="day_card">
+                    <a href="https://www.o2gether.com.tw/product/detail/713" target="_blank">
+                        <div class="date">
+                            <img src="img/date_1105.png" alt="">
+                        </div>
+                        <div class="day_commodity">
+                            <div class="discount">
+                                <img src="img/discount_6.png" alt="">
+                            </div>
+                            <img src="img/commodity1105.png" alt="">
+                        </div>
+                        <div class="commodity_txt">
+                            <div>The North Face </div>
+                            <div>吸濕排汗長袖上衣</div>
+                            <div class="money">
+                                <span class="slash">$1,980</span>
+                                <img class="cash" src="img/cash.png" alt="">
+                                <span>$1,190</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="day_card">
+                    <a href="https://www.o2gether.com.tw/product/detail/703" target="_blank">
+                        <div class="date">
+                            <img src="img/date_1106.png" alt="">
+                        </div>
+                        <div class="day_commodity">
+                            <div class="discount">
+                                <img src="img/discount_78.png" alt="">
+                            </div>
+                            <img src="img/commodity1106.png" alt="">
+                        </div>
+                        <div class="commodity_txt">
+                            <div>The North Face </div>
+                            <div>防水透氣衝鋒外套 </div>
+                            <div class="money">
+                                <span class="slash">$6,380</span>
+                                <img class="cash" src="img/cash.png" alt="">
+                                <span>$4,990</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="day_card">
+                    <a href="https://www.o2gether.com.tw/product/detail/1179" target="_blank">
+                        <div class="date">
+                            <img src="img/date_1107.png" alt="">
+                        </div>
+                        <div class="day_commodity">
+                            <div class="discount">
+                                <img src="img/discount_79.png" alt="">
+                            </div>
+                            <img src="img/commodity1107.png" alt="">
+                        </div>
+                        <div class="commodity_txt">
+                            <div>NIKE 輕度支撐型</div>
+                            <div>運動內衣</div>
+                            <div class="money">
+                                <span class="slash">$1,080</span>
+                                <img class="cash" src="img/cash.png" alt="">
+                                <span>$850</span>
+                            </div>
+                        </div>
+                    </a>    
+                </div>
+                <div class="day_card">
+                    <a href="https://www.o2gether.com.tw/product/detail/1147" target="_blank">
+                        <div class="date">
+                            <img src="img/date_1108.png" alt="">
+                        </div>
+                        <div class="day_commodity">
+                            <div class="discount">
+                                <img src="img/discount_83.png" alt="">
+                            </div>
+                            <img src="img/commodity1108.png" alt="">
+                        </div>
+                        <div class="commodity_txt">
+                            <div>BILLABONG 短袖T恤</div>
+                            <div class="money">
+                                <span class="slash">$1,190</span>
+                                <img class="cash" src="img/cash.png" alt="">
+                                <span>$990</span>
+                            </div>
+                        </div>
+                    </a>    
+                </div>
+            </div>
+            <div class="day_content w-720">
+                <div class="day_card2">
+                    <a href="https://www.o2gether.com.tw/product/detail/697" target="_blank">
+                        <div class="date">
+                            <img src="img/date_1109.png" alt="">
+                        </div>
+                        <div class="day_commodity">
+                            <div class="discount">
+                                <img src="img/discount_7.png" alt="">
+                            </div>
+                            <img src="img/commodity1109.png" alt="">
+                        </div>
+                        <div class="commodity_txt">
+                            <div>The North Face </div>
+                            <div>三合一防水透氣保暖外套</div>
+                            <div class="money">
+                                <span class="slash">$9,880</span>
+                                <img class="cash" src="img/cash.png" alt="">
+                                <span>$6,916</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="day_card2">
+                    <a href="https://www.o2gether.com.tw/product/detail/706" target="_blank">
+                        <div class="date1110">
+                            <img src="img/date_1110.png" alt="">
+                        </div>
+                        <div class="day_commodity">
+                            <div class="discount">
+                                <img src="img/discount_65.png" alt="">
+                            </div>
+                            <img src="img/commodity1110.png" alt="">
+                        </div>
+                        <div class="commodity_txt">
+                            <div>The North Face </div>
+                            <div>防風防潑水可拆卸長褲</div>
+                            <div class="money">
+                                <span class="slash">$3,380</span>
+                                <img class="cash" src="img/cash.png" alt="">
+                                <span>$2,190</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="day_card2">
+                    <a href="https://www.o2gether.com.tw/product/detail/766" target="_blank">
+                        <div class="date">
+                            <img src="img/date_1111.png" alt="">
+                        </div>
+                        <div class="day_commodity">
+                            <div class="discount">
+                                <img src="img/discount_5.png" alt="">
+                            </div>
+                            <img src="img/commodity1111.png" alt="">
+                        </div>
+                        <div class="commodity_txt">
+                            <div>The North Face Gore-Tex</div>
+                            <div>保暖羽絨外套</div>
+                            <div class="money">
+                                <span class="slash">$19,800</span>
+                                <img class="cash" src="img/cash.png" alt="">
+                                <span>$9,900</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="sectionBlock" id="section2"></div>
+    </div>
+    <div class="bg-09335D">
+        <div class="container">
+            <div class="con_title">
+                <img src="img/title01.png" alt="">
+            </div>
+        </div>
+        
+    </div>
+    <div class="bg-081828">
+        <div class="container">
+            <div class="w-100 pdb01">
+                <div class="section_left mt80">
+                    <img src="img/section1-1.png" alt="">
+                </div>
+                <div class="section_right">
+                    <div class="section_card">
+                        <a href="https://www.o2gether.com.tw/event/detail/221" target="_blank">
+                            <img src="img/section1-2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="section_card">
+                        <a href="https://www.o2gether.com.tw/event/detail/243" target="_blank">
+                            <img src="img/section1-3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="section_card">
+                        <a href="https://www.o2gether.com.tw/event/detail/247" target="_blank">
+                            <img src="img/section1-4.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="other_block">
+                <div class="other_link">
+                    <a href="https://www.o2gether.com.tw/event/4" target="_blank">
+                        <img src="img/section1_other.png" alt="">
+                    </a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="w-100 pdb01">
+                <div class="section_left mt20">
+                    <img src="img/section2-1.png" alt="">
+                </div>
+                <div class="section_right">
+                    <div class="section_card">
+                        <a href="https://www.o2gether.com.tw/product/detail/788" target="_blank">
+                            <img src="img/section2-2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="section_card">
+                        <a href="https://www.o2gether.com.tw/product/detail/1234" target="_blank">
+                            <img src="img/section2-3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="section_card">
+                        <a href="https://www.o2gether.com.tw/product/detail/778" target="_blank">
+                            <img src="img/section2-4.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="other_block">
+                <div class="other_link">
+                    <a href="https://www.o2gether.com.tw/product/4" target="_blank">
+                        <img src="img/section2_other.png" alt="">
+                    </a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="sectionBlock" id="section3"></div>
+    </div>
+    <div class="bg-09335D">
+        <div class="container">
+            <div class="con_title">
+                <img src="img/title02.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="bg-081828">
+        <div class="container">
+
+            <div class="w-100 pdb01">
+                <div class="section_left mt80">
+                    <img src="img/section3_1.png" alt="">
+                </div>
+                <div class="section_right">
+                    <div class="section_card">
+                        <a href="https://www.o2gether.com.tw/event/detail/265" target="_blank">
+                            <img src="img/section3_2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="section_card">
+                        <a href="https://www.o2gether.com.tw/event/detail/263" target="_blank">
+                            <img src="img/section3_3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="section_card">
+                        <a href="https://www.o2gether.com.tw/event/detail/257" target="_blank">
+                            <img src="img/section3_4.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="other_block">
+                <div class="other_link">
+                    <a href="https://www.o2gether.com.tw/event/3" target="_blank">
+                        <img src="img/section1_other.png" alt="">
+                    </a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="w-100 pdb01">
+                <div class="section_left">
+                    <img src="img/section4_1.png" alt="">
+                </div>
+                <div class="section_right">
+                    <div class="section_card">
+                        <a href="https://www.o2gether.com.tw/product/detail/246" target="_blank">
+                            <img src="img/section4_2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="section_card">
+                        <a href="https://www.o2gether.com.tw/product/detail/1184" target="_blank">
+                            <img src="img/section4_3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="section_card">
+                        <a href="https://www.o2gether.com.tw/product/detail/1197" target="_blank">
+                            <img src="img/section4_4.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="other_block">
+                <div class="other_link2">
+                    <a href="https://www.o2gether.com.tw/product/3" target="_blank">
+                        <img src="img/section4_other.png" alt="">
+                    </a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div><img src="img/logo.png" alt=""></div>
+            <div class="footer-txt"><img src="img/footer-txt.png" alt=""></div>
+            <div>
+                <a href="https://www.instagram.com/o2gether_offical/?hl=zh-tw" target="_blank"><img src="img/ig.png" alt=""></a>
+                <a href="https://bit.ly/3cSExDy" target="_blank"><img src="img/fb.png" alt=""></a>
+                <a href="https://bit.ly/2AMYugF" target="_blank"><img src="img/line.png" alt=""></a>
+                <a href="https://bit.ly/2LMJQZj" target="_blank"><img src="img/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
