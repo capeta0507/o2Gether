@@ -155,6 +155,7 @@ a{
 .day_content{
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .w-960{
@@ -171,15 +172,19 @@ a{
     width: 30%;
     margin-bottom: 20px;
 }
-.day_card .day_commodity, .day_card2 .day_commodity{
+.day_card3{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.day_card .day_commodity, .day_card2 .day_commodity, .day_card3 .day_commodity{
     width: 100%;
     position: relative;
     margin-top: 10px;
 }
-.day_card .day_commodity img, .day_card2 .day_commodity img{
+.day_card .day_commodity img, .day_card2 .day_commodity img, .day_card3 .day_commodity img{
     width: 100%;
 }
-.day_card .discount, .day_card2 .discount{
+.day_card .discount, .day_card2 .discount, .day_card3 .discount{
     width: 35%;
     position: absolute;
     top: 0;
@@ -188,7 +193,7 @@ a{
 .day_card .discount img{
     width: 100%;
 }
-.day_card .date, .day_card2 .date{
+.day_card .date, .day_card2 .date, .day_card3 .date{
     width: 50%;
     margin: 0 auto;
 }
@@ -196,26 +201,26 @@ a{
     width: 58%;
     margin: 0 auto;
 }
-.day_card .date img, .day_card2 .date img{
+.day_card .date img, .day_card2 .date img, .day_card3 .date img{
     width: 100%;
 }
 .day_card2 .date1110 img{
     width: 100%;
 }
-.day_card .commodity_txt, .day_card2 .commodity_txt{
+.day_card .commodity_txt, .day_card2 .commodity_txt, .day_card3 .commodity_txt{
     color: #fff;
     font-size: 16px;
     text-align: center;
     margin-top: 10px;
     line-height: 20px;
 }
-.day_card .commodity_txt .money, .day_card2 .commodity_txt .money{
+.day_card .commodity_txt .money, .day_card2 .commodity_txt .money, .day_card3 .commodity_txt .money{
     margin-top: 3px;
 }
-.day_card .commodity_txt .money .slash, .day_card2 .commodity_txt .money .slash{
+.day_card .commodity_txt .money .slash, .day_card2 .commodity_txt .money .slash, .day_card3 .commodity_txt .money .slash{
     text-decoration: line-through;
 }
-.day_card .commodity_txt .money .cash, .day_card2 .commodity_txt .money .cash{
+.day_card .commodity_txt .money .cash, .day_card2 .commodity_txt .money .cash, .day_card3 .commodity_txt .money .cash{
     width: 16px;
     position: relative;
     top: 4px;
@@ -423,12 +428,8 @@ a{
         display: none;
     }
     .daySign{
-        width: 100%;
-    }
-    .day_content{
+        width: 90%;
         margin: 0 auto;
-        display: block;
-        justify-content: unset;
     }
     .w-960 {
         width: 80%;
@@ -437,14 +438,18 @@ a{
         width: 80%;
     }
     .day_card {
-        width: 100%;
+        width: 45%;
         margin-bottom: 20px;
     }
     .day_card2 {
-        width: 100%;
+        width: 45%;
         margin-bottom: 20px;
     }
-
+    .day_card3 {
+        width: 45%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
     .btn-top{
         position: fixed;
         bottom: 8%;
@@ -488,34 +493,32 @@ a{
         margin-top: 10px;
     }
     .section_left {
-        width: 70%;
+        width: 30%;
         margin: 0 auto;
     }
     .section_left2 {
-        width: 85%;
+        width: 30%;
         margin: 0 auto;
     }
     .section_right {
         width: 80%;
         margin: 0 auto;
-        display: block;
-        justify-content: unset;
         margin-top: 20px;
     }
     .section_right .section_card {
-        width: 100%;
+        width: 30%;
         margin: 30px 0;
     }
-    .other_block .other_link {
-        width: 50%;
-        float: none;
+    .other_block {
+        width: 80%;
         margin: 0 auto;
+    }
+    .other_block .other_link {
+        width: 20%;
         margin-bottom: 30px;
     }
     .other_block .other_link2 {
-        width: 50%;
-        float: none;
-        margin: 0 auto;
+        width: 20%;
         margin-bottom: 30px;
     }
     .day_card .commodity_txt, .day_card2 .commodity_txt {
@@ -539,6 +542,62 @@ a{
     }
     .mbBlock{
         display: block;
+    }
+    .day_content{
+        margin: 0 auto;
+        display: block;
+        justify-content: unset;
+    }
+    .day_card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .day_card2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .day_card3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .daySign{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .section_left {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .section_left2 {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .section_right {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        justify-content: unset;
+        margin-top: 20px;
+    }
+    .section_right .section_card {
+        width: 100%;
+        margin: 30px 0;
+    }
+    .other_block {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .other_block .other_link {
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .other_block .other_link2 {
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 30px;
     }
 }
 
