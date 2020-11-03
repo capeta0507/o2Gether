@@ -7,6 +7,9 @@ body{
 .header{
     background-color: #000;
 }
+a{
+    text-decoration: transparent;
+}
 .container{
     max-width: 1200px;
     margin: auto;
@@ -126,6 +129,12 @@ body{
 }
 .w-100{
     width: 100%;
+}
+.dsMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.section_content{
     display: flex;
     justify-content: space-between;
 }
@@ -214,9 +223,14 @@ body{
 }
 .section_left{
     width: 25%;
-
 }
 .section_left img{
+    width: 100%;
+}
+.section_left2{
+    width: 25%;
+}
+.section_left2 img{
     width: 100%;
 }
 .section_right{
@@ -417,10 +431,10 @@ body{
         justify-content: unset;
     }
     .w-960 {
-        width: 90%;
+        width: 80%;
     }
     .w-720{
-        width: 90%;
+        width: 80%;
     }
     .day_card {
         width: 100%;
@@ -457,7 +471,60 @@ body{
     .mbBlock{
         display: block;
     }
-
+    .bg-09335D {
+        background-color: #09335D;
+        position: relative;
+        padding: 10px 0px 20px 0px;
+    }
+    .con_title {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section_content{
+        display: block;
+        justify-content: unset;
+    }
+    .mt80 {
+        margin-top: 10px;
+    }
+    .section_left {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .section_left2 {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .section_right {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        justify-content: unset;
+        margin-top: 20px;
+    }
+    .section_right .section_card {
+        width: 100%;
+        margin: 30px 0;
+    }
+    .other_block .other_link {
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .other_block .other_link2 {
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .day_card .commodity_txt, .day_card2 .commodity_txt {
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+        line-height: 30px;
+    }
 }
 
 @media screen and (max-width: 768px){
