@@ -265,12 +265,13 @@ a{
 .other_block .other_link{
     width: 15%;
     float: right;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 .other_block .other_link2{
     width: 18%;
     float: right;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .clear{
     clear: both;
@@ -515,11 +516,12 @@ a{
     }
     .other_block .other_link {
         width: 25%;
+        margin-top: 0;
         margin-bottom: 30px;
     }
     .other_block .other_link2 {
         width: 25%;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     .day_card .commodity_txt, .day_card2 .commodity_txt, .day_card3 .commodity_txt {
         color: #fff;
@@ -597,7 +599,8 @@ a{
         width: 50%;
         float: none;
         margin: 0 auto;
-        margin-bottom: 30px;
+        margin-top: 0;
+        margin-bottom: 10px;
     }
 }
 
