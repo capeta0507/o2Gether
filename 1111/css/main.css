@@ -258,6 +258,9 @@ a{
 .mt20{
     margin-top: 20px;
 }
+.mg01{
+    margin: 24px 0 10px 0;
+}
 .other_block{
     width: 100%;
     margin: 0 auto;
@@ -601,6 +604,9 @@ a{
         margin: 0 auto;
         margin-top: 0;
         margin-bottom: 10px;
+    }
+    .mg01{
+        margin: 0;
     }
 }
 
