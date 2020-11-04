@@ -8,7 +8,7 @@ body{
     background-color: #000;
 }
 a{
-    text-decoration: transparent;
+    text-decoration: none;
 }
 .container{
     max-width: 1200px;
@@ -555,15 +555,15 @@ a{
     }
     .day_card {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 80px;
     }
     .day_card2 {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 80px;
     }
     .day_card3 {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     .daySign{
         width: 100%;
@@ -576,6 +576,12 @@ a{
     .section_left2 {
         width: 85%;
         margin: 0 auto;
+    }
+    .mt20{
+        margin-top: 100px;
+    }
+    .mtMb{
+        margin-top: 150px;
     }
     .section_right {
         width: 80%;
